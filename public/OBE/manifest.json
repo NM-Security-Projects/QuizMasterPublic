@@ -1,0 +1,15 @@
+
+[
+  {
+    "id": "_example",
+    "filename": "example.db",
+    "name": "Example Database",
+    "description": "Copy this block to add a new database. The ID must be unique. Place your .db file in this folder."
+  },
+  {
+    "id": "CISSP",
+    "filename": "QuizMasterDb_CISSPmappingv1.db",
+    "name": "CISSP OSG & OPT",
+    "description": "Us this database along with the CISSP Official Study Guide and Official Practice Test"
+  }
+]

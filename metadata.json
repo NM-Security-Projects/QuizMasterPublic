@@ -1,0 +1,5 @@
+{
+  "name": "CISSP Quiz Master Personal v1",
+  "description": "A dynamic quiz application that generates practice tests from uploaded SQLite databases, featuring flexible testing modes and secure, local-side data processing.",
+  "requestFramePermissions": []
+}
