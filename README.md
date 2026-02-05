@@ -170,6 +170,9 @@ Located in the specific "DevTools" menu (Wrench icon) inside the Quiz view.
 
 ## ⚠️ Troubleshooting
 
+**App doesn't load after navigating to http://localhost:3000**
+*   Ensure you've entered your Gemini API key into the .env.local file
+
 **"Database is empty" error:**
 *   Ensure your SQLite file has a table.
 *   Ensure the table has a column containing the word "Question Text", "Question", or "text".
