@@ -75,7 +75,7 @@ A high-performance educational tool designed to transform raw SQLite question ba
     ```bash
     npm start
     ```
-8. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+8. **Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.**
 
 ---
 
