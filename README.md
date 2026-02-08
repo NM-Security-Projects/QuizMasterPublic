@@ -60,7 +60,7 @@ A high-performance educational tool designed to transform raw SQLite question ba
    Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
    ```
    
-5.  **Install dependencies (Make sure you are in your -~\quiz-master\- directory**
+5.  **Install dependencies (Make sure you are in your ~\quiz-master\ directory**
     ```bash
         npm install
     ```
