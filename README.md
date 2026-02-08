@@ -43,26 +43,35 @@ A high-performance educational tool designed to transform raw SQLite question ba
 *   npm or yarn
 *   A Google Gemini API Key (for AI features)
 
-### Installation
+### Installation (All steps should be done in Powershell with admin rights
 
 1.  **Clone the repository**
     ```bash
     git clone https://github.com/yourusername/quiz-master.git
     cd quiz-master
     ```
+    
+2. **Install your favorite package manager. I like Chocolatey - https://chocolatey.org/install**
 
-2.  **Install dependencies**
+3. **Install NPM With Cocolatey - https://vocon-it.com/2019/11/19/install-npm-using-chocolatey-on-windows/#:~:text=run%20as%20Administrator-,Step%201.2%3A%20Install,-Get%2DExecutionPolicy%0A%0A%23%20output**
+
+4. **Revert your execution policy back to restricted (optional, but encouraged)**
+   ```bash
+   Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
+   ```
+   
+5.  **Install dependencies (Make sure you are in your *~\quiz-master\* directory**
     ```bash
-    npm install
+        npm install
     ```
 
-3.  **Configure Environment**
+6.  **Configure Environment (required, sorry)**
     Create a `.env` file in the root directory:
     ```env
     API_KEY=your_google_gemini_api_key_here
     ```
 
-4.  **Run the application**
+7.  **Run the application**
     ```bash
     npm start
     ```
