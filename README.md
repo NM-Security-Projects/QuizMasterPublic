@@ -51,16 +51,16 @@ A high-performance educational tool designed to transform raw SQLite question ba
     cd quiz-master
     ```
     
-2. **Install your favorite package manager. I like Chocolatey - https://chocolatey.org/install**
+2. **Install your favorite package manager. I like [Chocolatey](https://chocolatey.org/install)**
 
-3. **Install NPM With Cocolatey - -[Instructions](https://vocon-it.com/2019/11/19/install-npm-using-chocolatey-on-windows/#:~:text=run%20as%20Administrator-Step%201.2%3A%20Install)-Get%2DExecutionPolicy%0A%0A%23%20output**
+3. **Install NPM With Cocolatey - [Instructions](https://vocon-it.com/2019/11/19/install-npm-using-chocolatey-on-windows/)**
 
 4. **Revert your execution policy back to restricted (optional, but encouraged)**
    ```bash
    Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
    ```
    
-5.  **Install dependencies (Make sure you are in your *~\quiz-master\* directory**
+5.  **Install dependencies (Make sure you are in your -~\quiz-master\- directory**
     ```bash
         npm install
     ```
