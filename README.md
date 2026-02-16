@@ -1,3 +1,7 @@
+# This repository has been deprecated in favor of [Quiz-Master-Public](https://github.com/NM-Security-Projects/Quiz-Master-Public.git). Please use the new repository for the latest updates and features.
+
+
+
 
 # Adaptive Assessment Platform (Quiz Master)
 
